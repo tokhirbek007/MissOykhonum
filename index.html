@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MissOYKHONUM</title>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/001/187/438/non_2x/heart-png.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Miss OYKHONUM</strong>
+                        <p>
+                            Happy Birthday, Miss OYKHONUM! Your enthusiasm and positive energy make every class a joy to be a part of. I hope your special day is filled with all the happiness and laughter you bring to us. Wishing you a fantastic year ahead!
+                        </p>
+                        <p class="center-text">Happy Birthday, Jigar!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
